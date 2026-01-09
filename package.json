@@ -1,0 +1,36 @@
+{
+  "name": "cash-tracker",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Premium AI-powered expense tracker with Gemini insights and multi-device cloud sync.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "finance",
+    "expense-tracker",
+    "gemini-ai",
+    "google-drive-sync",
+    "react",
+    "typescript"
+  ],
+  "author": "Cash Tracker Developer",
+  "license": "MIT",
+  "dependencies": {
+    "@google/genai": "^1.34.0",
+    "lucide-react": "^0.562.0",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "recharts": "^3.6.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.3",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.3"
+  }
+}
